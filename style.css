@@ -1,18 +1,25 @@
+body{ 
+    overflow: hidden;
+    background-color: #333;
+}
+
 #sides{
- display: flex;
- flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
 
 #left{
- background-color: blue; 
- width: 50vw;
- height: 100vh;
- overflow: hidden;
+    background-color: #005; 
+    width: 50vw;
+    height: 100vh;
+    overflow: hidden;
 }
 
 #right{
- background-color: red;
- width: 50vw;
- height: 100vh;
- overflow: hidden;
+    background-color: #500;
+    width: 50vw;
+    height: 100vh;
+    overflow: hidden;
 }
