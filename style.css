@@ -1,6 +1,7 @@
 #sides{
  display: flex;
  flex-direction: column;
+}
 
 #left{
  background-color: blue; 
