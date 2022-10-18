@@ -1,7 +1,13 @@
 #left{
  background-color: blue; 
+ width: 50vw;
+ height: 100vh;
+ overflow: hidden;
 }
 
 #right{
-  background-color: red;
+ background-color: red;
+ width: 50vw;
+ height: 100vh;
+ overflow: hidden;
 }
