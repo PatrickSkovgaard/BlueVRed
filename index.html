@@ -10,7 +10,17 @@
 </head>
 <body>
   <nav id="navbar">
-    <ul>
+    <div id="categories">
+      <a href="/recon" class="category">Recon</a>
+      <a href="/commands" class="category">Commands</a>
+      <a href="/wordlists" class="category">Wordlists</a>
+      <a href="/payloads" class="category">Payloads</a>
+      <a href="/tools" class="category">Tools</a>
+    </div>
+    <div id="home">
+      <a href="/">Home</a>
+    </div>
+ <!--   <ul>
       <div id="dropdown"> 
         <button class="dropdown_btn">Drop it
           <i class="fa fa-caret-down"></i>
@@ -20,14 +30,25 @@
           <button id="btn2" class="btns">btn2</button>
         </div>
       </div>
-    </ul>
+    </ul> -->
   </nav>
-    
+  <p id="hint_text">Double click a side to highlight it!</p>
+    <main>
       <div id="sides">
-        <div id="left"></div>
+        
+        <div id="left">
+          <div id="left_content" readonly>Blue Team</div>
+          <div class="line"></div>
+        </div>
+
         <div id="mid_sep"></div>
-        <div id="right"></div>
+        
+        <div id="right">
+          <div id="right_content">Red Team</div>
+          <div class="line"></div>
+        </div>
+
       </div>
-    
+    </main>
 </body>
 </html>
